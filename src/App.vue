@@ -4,7 +4,7 @@ const today = new Date().toLocaleDateString("fr-FR");
 </script>
 <template>
   <header>
-    <p>Nom : Léo Roussel--COusin ..</p>
+    <p>Nom : Léo Roussel--COusin .</p>
     <p>Date : {{ today }}</p>
     <p>Build : {{ buildId }}</p>
   </header>
